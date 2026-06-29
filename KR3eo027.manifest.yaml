@@ -1,0 +1,37 @@
+canonical_identifier: bkk:krp/KR3eo027/v1
+canonical_location: https://kanripo.org/bkk/KR3eo027/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 醫學權輿
+  identifiers:
+    krp: KR3eo027
+  tags:
+    kr-categories: KR3eo
+    tls-dates: dat04250
+  source:
+    repository: tls-texts
+    path: data/tls/KR3eo027.xml
+  edition:
+    short: bkk
+assets:
+  parts:
+  - {seq: 0, filename: KR3eo027_000.yaml, hash: 'sha256:6014df2ebf2cce5a30a52ef653676c46435e65e4a9d440b3609ec15e51692c9f'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR3eo027_000.markers.yaml, hash: 'sha256:0cde56bf858ef48fea8257ac2fff3c0036612946065bad0bf965e3be63bc3671'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR3eo027_jc_000-d2.h1s1
+    span:
+    - body
+    - 0
+    - 5980
+  label: 正文
+  type: section
+  level: 1
+hash: sha256:485d46f404dc4af73449f808abc1b24ebe33d4e66f5f6c5cad14bec4fed94253
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e

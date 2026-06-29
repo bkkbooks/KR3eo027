@@ -1,0 +1,34 @@
+canonical_identifier: bkk:krp/KR3eo027/jc/v1
+canonical_location: https://kanripo.org/bkk/KR3eo027/jc/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 醫學權輿
+  identifiers:
+    krp: KR3eo027
+  tags:
+    kr-categories: KR3eo
+    tls-dates: dat04250
+  source:
+    repository: tls-texts
+    path: data/tls/KR3eo027.xml
+  edition:
+    short: jc
+assets:
+  parts:
+  - {seq: 0, filename: KR3eo027_000-jc.yaml, hash: 'sha256:689ed110cfb0ec64ec1f15b9ebb9a7a4d4ad2072a969271c019b65d557ee8903'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR3eo027_000-jc.markers.yaml, hash: 'sha256:1e4d1d1fcea3fbe939874bd9ae9cfe1c503efb4d80bec1dd3155017b696097a3'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR3eo027_jc_000-d2.h1s1
+    span:
+    - body
+    - 0
+    - 5980
+  label: 正文
+  type: section
+  level: 1
+hash: sha256:319227682dfdbcf3eb40c24b0d43294fd0570f64599b8e8bda9bbe9d6c5690e8
